@@ -12,6 +12,11 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
+## Export python dependencies to a file
+```
+pip3 freeze > requirements.txt
+```
+
 ## Build docker image
 ```
 docker build -t <image-name>:latest .
